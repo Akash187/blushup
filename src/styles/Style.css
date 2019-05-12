@@ -1,0 +1,29 @@
+@import "./components/material-button.css";
+@import "./components/navbar.css";
+@import "./components/searchbar.css";
+@import "./components/datepicker.css";
+@import "./components/material-dropdown.css";
+
+.content{
+    padding: 0 2rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

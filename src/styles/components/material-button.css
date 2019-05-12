@@ -1,32 +1,6 @@
-.navbar{
-    height: 3.5rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-}
-
-.options{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.option{
-    margin: 0 1rem;
-    cursor: pointer;
-}
-
-.option span{
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 .btn {
     position: relative;
     display: block;
-    margin: 30px auto;
     padding: 0;
     overflow: hidden;
     border-width: 0;

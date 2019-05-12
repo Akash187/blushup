@@ -1,0 +1,33 @@
+.searchbar{
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbar-btn{
+    margin-left: 1rem;
+}
+
+.searchbar-options{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchbar-option{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-right: 1px solid gainsboro;
+    font-size: 1.25rem;
+    padding: 0 2rem;
+    min-width: 10rem;
+}
+
+.searchbar-option-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    color: #BFBFBF;
+}
+
+.search-icon{
+    font-size: 2rem;
+    padding: 1rem;
+}
