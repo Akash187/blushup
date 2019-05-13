@@ -1,3 +1,7 @@
+.react-select-container{
+    width: 10rem !important;
+}
+
 .react-select__control{
     border: none !important;
     background-color: rgba(0, 0, 0, 0) !important;

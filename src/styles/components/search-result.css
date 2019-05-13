@@ -1,0 +1,91 @@
+.search-results{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 2rem;
+}
+
+.search-result-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.search-result-dropdown{
+    display: flex;
+    justify-content: center;
+}
+
+.search-result-dropdown-icon{
+    font-size: 2rem;
+    position: relative;
+    right: 1.25rem;
+    z-index: -1;
+}
+
+.search-result .react-select__single-value{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+.search-result .react-select__placeholder{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    width: 100%;
+}
+
+.shop-info{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.btn-group{
+    display: grid;
+    grid-column-gap: 0.25rem;
+    grid-template-columns: repeat(4, 5rem);
+}
+
+.shop-carousel{
+    width: 240px;
+    margin-right: 1rem;
+    display: flex;
+}
+
+.favourite-icon{
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    right: 3rem;
+}
+
+.shop-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.shop-address{
+    font-size: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.shop-promo-detail{
+    font-weight: bold;
+}
+
+.shop-rating{
+    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+    color: #F8005B;
+}
+
+.rating-count{
+    font-size: 0.75rem;
+    color: #bdbdbd;
+}
+
+.slider-control-centerleft, .slider-control-centerright{
+    display: none;
+}
+
