@@ -89,3 +89,49 @@
     display: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.result-pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination{
+    display: flex;
+    align-items: flex-end;
+}
+
+.pagination li{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.75rem;
+    text-align: center;
+    vertical-align: center;
+}
+
+.fa-chevron-circle-left, .fa-chevron-circle-right{
+    font-size: 2rem;
+}
+
+.fa-chevron-circle-left, .fa-chevron-circle-right{
+    outline: none;
+}
+
+.pagination .previous a, .next a{
+    outline: none;
+}
+
+.pagination .active{
+    border: 2px solid rgba(250, 0 , 80);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination .disabled i{
+    color: gray;
+}
+
