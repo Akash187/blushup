@@ -3,6 +3,7 @@ import './styles/Style.css';
 import NavBar from "./components/navbar/NavBar";
 import SearchBar from "./components/searchbar/SearchBar";
 import SearchResult from "./components/searchResult/SearchResult";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="content">
         <SearchBar/>
         <SearchResult/>
+        <Footer/>
       </div>
     </div>
   );

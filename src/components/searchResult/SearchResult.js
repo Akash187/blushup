@@ -45,7 +45,7 @@ const SearchResult = () => {
           activeClassName={'active'}
         />
       </div>
-      <br/>
+      <hr style={{margin: '1rem -2rem', opacity: '0.3'}}/>
     </Fragment>
   );
 };

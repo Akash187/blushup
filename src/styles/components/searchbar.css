@@ -11,10 +11,10 @@
 .searchbar-options{
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .searchbar-option{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-right: 1px solid gainsboro;
     font-size: 1.25rem;
     padding: 0 2rem;

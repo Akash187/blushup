@@ -4,6 +4,7 @@
 @import "./components/datepicker.css";
 @import "./components/material-dropdown.css";
 @import "./components/search-result.css";
+@import "./components/footer.css";
 
 .content{
     padding: 0 2rem;
