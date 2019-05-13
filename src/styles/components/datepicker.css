@@ -12,7 +12,7 @@
     background-color: rgb(225, 0, 80) !important;
 }
 
-.react-datepicker__day{
+.react-datepicker__day, .react-datepicker__day-name{
     width: 2rem !important;
     line-height: 2rem !important;
     font-size: 1rem;
